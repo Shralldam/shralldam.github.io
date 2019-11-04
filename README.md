@@ -47,7 +47,7 @@ Plusieurs lignes devraient apparaître, affichant la progression de la récupér
 
 ---
 
-Une fois le tout terminé, pour vérifier que tout s'est bien déroulé, vous pouvez afficher la liste des fichiers présents dans le dossier **web2019** :
+Une fois le tout terminé, pour vérifier que tout s'est bien déroulé, vous pouvez afficher la liste des fichiers présents dans le dossier **web2019** avec la commande `ls` (avec l'option `-l` pour une affichage ligne par ligne) :
 
 ```bash
 # Afficher la liste des fichiers présents dans le dossier
