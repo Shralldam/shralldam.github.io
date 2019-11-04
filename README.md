@@ -2,6 +2,8 @@
 
 Ce dépôt est réservé aux extraits de code utilisés dans le cadre du cours de web de l'option Graphisme de l'ESA Saint-Luc Tournai.
 
+> Ces fichiers servent à titre d'exemple uniquement, et ne doivent pas être considérés comme des modèles réutilisables.
+
 ## Pour cloner (et mettre à jour) le projet via le Terminal (macOS)
 
 ### 1. Cloner le projet
@@ -32,7 +34,7 @@ cd web2019
 Ensuite, à l'aide de la commande `git clone`, clonons le projet :
 
 ```bash
-git clone https://github.com/damienmathe/dmathe.github.io.git
+git clone https://github.com/damienmathe/gweb.github.io.git
 ```
 
 Plusieurs lignes devraient apparaître, affichant la progression de la récupération du projet.
@@ -44,10 +46,10 @@ Une fois le tout terminé, pour vérifier que tout s'est bien déroulé, vous po
 ls -l
 
 # Résultat de la commande
-drwxrwxrwx 1 you you 4096 nov.   4 18:53  dmathe.github.io
+drwxrwxrwx 1 you you 4096 nov.   4 18:53  gweb.github.io
 
 # Rentrer dans le dossier
-cd dmathe.github.io
+cd gweb.github.io
 ```
 
 *Remarque : le propriétaire (ici "you") et les dates seront certainement différents chez vous, ce qui est tout à fait normal !*
@@ -68,19 +70,17 @@ Si de nouveaux éléments sont ajoutés et/ou des modifications sont apportées 
 
 ```bash
 # Se rendre dans le dossier du projet (selon l'exemple développé plus haut)
-cd ~/Desktop/web2019/dmathe.github.io
+cd ~/Desktop/web2019/gweb.github.io
 
 # Vérifier le dossier dans lequel on se trouve avec la commande pwd (Present Working Directory)
 # Vous devriez obtenir un résultat pratiquement similaire à la 2e ligne
 # (sauf "you" qui sera remplacé par votre nom d'utilisateur)
 pwd
-/Users/you/Desktop/web2019/dmathe.github.io
+/Users/you/Desktop/web2019/gweb.github.io
 
 # Retrouver une copie exactement conforme au projet présent sur ce site
 git pull origin master
 ```
-
-*Remarque : en utilisant cette commande, vous obtiendrez à nouveau un clone "parfait" du projet présent sur ce site. Si vous aviez modifié des fichiers, ces modifications seront perdues !*
 
 ## Pour cloner (et mettre à jour) le projet via l'invite de commandes (Windows)
 
