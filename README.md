@@ -18,6 +18,9 @@ Dans l'exemple qui suit, nous allons faire en sorte que le projet soit cloné da
 2. Pour exécuter une commande, appuyez sur la touche `Entrée`, symbolisée dans les exemples ci-dessous avec le glyphe `↩`
 3. Assurez-vous de respecter scrupuleusement la manière dont les commandes sont écrites : une faute de frappe peut créer des effets inattendus ; dans le doute, effectuez des copier-coller (en omettant le caractère `↩`)
 
+
+#### Allons-y !
+
 Tout d'abord, accédons au dossier *Bureau* avec la commande `cd` (*change directory*) :
 
 ```bash
