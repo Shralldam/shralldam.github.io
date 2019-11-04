@@ -12,7 +12,11 @@ Lancez l'application **Terminal** (dans le dossier Applications > Utilitaires).
 
 Dans l'exemple qui suit, nous allons faire en sorte que le projet soit cloné dans un nouveau dossier sur le *Bureau*.
 
-> **N.B.** : les lignes précédées d'un caractère "#" représentent des commentaires : il n'est pas nécessaire de les écrire ; pour exécuter une commande, appuyez sur la touche `Entrée`, symbolisée dans les exemples ci-dessous avec le glyphe `↩`.
+#### Avant de commencer
+
+1. Les lignes précédées d'un caractère `#` représentent des commentaires : il n'est pas nécessaire de les écrire
+2. Pour exécuter une commande, appuyez sur la touche `Entrée`, symbolisée dans les exemples ci-dessous avec le glyphe `↩`
+3. Assurez-vous de respecter scrupuleusement la manière dont les commandes sont écrites : une faute de frappe peut créer des effets inattendus ; dans le doute, effectuez des copier-coller (en omettant le caractère `↩`)
 
 Tout d'abord, accédons au dossier *Bureau* avec la commande `cd` (*change directory*) :
 
@@ -43,7 +47,16 @@ Puis, à l'aide de la commande `git clone`, clonons le projet :
 git clone https://github.com/damienmathe/gweb.github.io.git ↩
 ```
 
-Plusieurs lignes devraient apparaître, affichant la progression de la récupération du projet.
+Plusieurs lignes devraient apparaître, affichant la progression de la récupération du projet :
+
+```bash
+Cloning into 'gweb.github.io'...
+remote: Enumerating objects: 27, done.
+remote: Counting objects: 100% (27/27), done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 46 (delta 5), reused 0 (delta 0), pack-reused 19
+Unpacking objects: 100% (46/46), done.
+```
 
 ---
 
