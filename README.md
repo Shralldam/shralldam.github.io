@@ -47,13 +47,13 @@ cd web2019 ↩
 Puis, à l'aide de la commande `git clone`, clonons le projet :
 
 ```bash
-git clone https://github.com/damienmathe/gweb.github.io.git ↩
+git clone https://github.com/damienmathe/gweb.git ↩
 ```
 
 Plusieurs lignes devraient apparaître, affichant la progression de la récupération du projet :
 
 ```bash
-Cloning into 'gweb.github.io'...
+Cloning into 'gweb'...
 remote: Enumerating objects: 27, done.
 remote: Counting objects: 100% (27/27), done.
 remote: Compressing objects: 100% (27/27), done.
@@ -70,10 +70,10 @@ Une fois le tout terminé, pour vérifier que tout s'est bien déroulé, vous po
 ls -l ↩
 
 # Résultat de la commande
-drwxrwxrwx 1 you you 4096 nov.   4 18:53  gweb.github.io
+drwxrwxrwx 1 you you 4096 nov.   4 18:53  gweb
 
 # Rentrer dans le dossier
-cd gweb.github.io ↩
+cd gweb ↩
 ```
 
 *Remarque : le propriétaire (ici "you") et les dates seront certainement différents chez vous, ce qui est tout à fait normal !*
@@ -96,13 +96,13 @@ Si de nouveaux éléments sont ajoutés et/ou des modifications sont apportées 
 
 ```bash
 # Se rendre dans le dossier du projet (selon l'exemple développé plus haut)
-cd ~/Desktop/web2019/gweb.github.io ↩
+cd ~/Desktop/web2019/gweb ↩
 
 # Vérifier le dossier dans lequel on se trouve avec la commande pwd (Present Working Directory)
 # Vous devriez obtenir un résultat pratiquement similaire à la 2e ligne
 # (sauf "you" qui sera remplacé par votre nom d'utilisateur)
 pwd ↩
-/Users/you/Desktop/web2019/gweb.github.io
+/Users/you/Desktop/web2019/gweb
 
 # Retrouver une copie exactement conforme au projet présent sur ce site
 git pull origin master ↩
