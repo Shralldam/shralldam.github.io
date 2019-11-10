@@ -116,7 +116,10 @@ Contrairement à macOS, les outils `git` ne sont pas préinstallés sous Windows
 
 Pour télécharger Git, cliquez sur [ce lien](https://git-scm.com/download/win). Après quelques instants, le programme d'installation figurera dans votre dossier *Téléchargements* : il devrait s'intituler `Git-x.xx.0-64-bit.exe` (les "x" seront remplacés par la version actuelle de Git au moment du téléchargement).
 
-Vous pouvez ensuite lancer le programme d'installation.
+
+### 2. Installer Git
+
+Vous pouvez ensuite lancer le programme d'installation. Restez concentrés pendant l'installation, car plusieurs fenêtres vont apparaître pendant la procédure, vous demandant de choisir vos préférences d'utilisation.
 
 > Explications en cours de rédaction
 
