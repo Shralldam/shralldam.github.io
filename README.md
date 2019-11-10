@@ -112,7 +112,13 @@ git pull origin master ↩
 
 Contrairement à macOS, les outils `git` ne sont pas préinstallés sous Windows.
 
-> Explications à venir
+### 1. Télécharger Git pour Windows
+
+Pour télécharger Git, cliquez sur [ce lien](https://git-scm.com/download/win). Après quelques instants, le programme d'installation figurera dans votre dossier *Téléchargements* : il devrait s'intituler `Git-x.xx.0-64-bit.exe` (les "x" seront remplacés par la version actuelle de Git au moment du téléchargement).
+
+Vous pouvez ensuite lancer le programme d'installation.
+
+> Explications en cours de rédaction
 
 ## Récupérer le projet via ce site web (toutes les plateformes)
 
