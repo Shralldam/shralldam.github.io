@@ -60,4 +60,4 @@ function createMsg(name) {
 	return name + verbs[v] + how[h] + subjects[s] + end[e];
 }
 
-console.log(createMsg("Gaspard"));
+console.log(createMsg("Théo"));
