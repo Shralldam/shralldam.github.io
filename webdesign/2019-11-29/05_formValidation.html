@@ -59,22 +59,24 @@
 
 		<script>
 			function validateForm() {
-
+				// Contenu du champ Nom
 				var nameInput = document.forms["loginForm"]["userName"].value;
+				// Contenu du champ Mot de passe
 				var pwdInput = document.forms["loginForm"]["userPwd"].value;
+				// Liste de mots de passe autorisés
 				var passwords = ["lapinou","chienchien","cuicui","obiwankenobi"]
 
 				if (nameInput == "") {
-					alert("Vous devez entrer votre nom !");
+					alert("Vous devez entrer votre nom !"); // Si le champ nom est vide
 					return false;
-			  	} else if (pwdInput == "") {
+			  	} else if (pwdInput == "") { // Si le champ mot de passe est vide
 			  		alert("Vous devez entrer votre mot de passe !");
 			  		return false;
-			  	} else if (!passwords.includes(pwdInput)) {
+			  	} else if (!passwords.includes(pwdInput)) { // Si le mdp n'est pas dans la liste
 			  		alert("Le mot de passe est incorrect !");
 			  		return false;
 			  	} else {
-			  		alert("Parfait, vous allez être redirigé.")
+			  		alert("Parfait, vous allez être redirigé.") // Si toutes les conditions sont remplies
 			  		return true;
 			  	}
 
