@@ -1,4 +1,4 @@
-# Découverte des langages du web (2018-2019)
+# Découverte des langages du web
 
 Ce dépôt est réservé aux extraits de code utilisés dans le cadre du cours de découverte des langages du web de l'option Graphisme de l'ESA Saint-Luc Tournai.
 
