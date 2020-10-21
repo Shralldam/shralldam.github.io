@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../2019-11-15/css/bootstrap.min.css">
+		<title>Exemples JavaScript</title>
+	</head>
+
+	<body>
+
+		<div class="container">
+
+			<header class="page-header">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1 class="page-title">Exemples JavaScript</h1>
+						<h2>Que peut-on faire avec JavaScript ?</h2>
+					</div>
+				</div>
+			</header>
+
+			<section class="page-content">
+
+				<div class="row">
+
+					<div class="col-lg-4 col-md-6 col-xs-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Modifier le contenu</h3>
+							</div>
+							<div class="panel-body">
+								<p id="change">On peut modifier le contenu d'une balise HTML (ce qui se situe entre la balise d'ouverture, et la balise de fermeture).</p>
+								<p class="text-center"><button type="button" class="btn btn-default" onclick="replaceText('change')">Modifier !</button></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 col-xs-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Modifier les attributs</h3>
+							</div>
+							<div class="panel-body">
+								<p>On peut modifier les attributs d'une balise HTML. Ici, on change l'attribut <code>src</code> de la balise <code>img</code>.</p>
+								<p class="text-center"><img id="emoji" src="img/image01.png" alt="Emoji"></p>
+								<p class="text-center"><button type="button" class="btn btn-default" onclick="document.getElementById('emoji').src='img/image02.png'">Ouais !</button>
+								<button type="button" class="btn btn-default" onclick="document.getElementById('emoji').src='img/image01.png'">Nan.</button></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 col-xs-12">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Modifier le style CSS</h3>
+							</div>
+							<div class="panel-body">
+								<p id="style">On peut également modifier le style CSS d'un élément HTML ciblé.</p>
+								<p class="text-center">
+									<button type="button" class="btn btn-default" onclick="document.getElementById('style').style.fontFamily='Georgia'">Okay !</button>
+									<button type="button" class="btn btn-default" onclick="document.getElementById('style').style.fontFamily='sans-serif'">Finalement non</button>
+								</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<footer>
+				<hr>
+				<p class="text-center"><small>Cours de web du <time datetime="2019-11-29">29/11/2019</time>.</small></p>	
+			</footer>
+
+		</div>
+
+		<script>
+			/* EXEMPLE 1 */
+			function replaceText(name) { // Définition d'une fonction replaceText, avec name comme argument
+				document.getElementById(name).innerHTML = "On a remplacé le contenu de la balise <code>p</code> avec la méthode <code>innerHTML</code>."; // On récupère l'élément HTML dont l'id correspond à name, et on remplace son contenu
+			}
+		</script>
+
+	</body>
+
+</html>
