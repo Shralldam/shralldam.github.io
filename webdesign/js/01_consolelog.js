@@ -1,5 +1,5 @@
 // Affiche le texte Bonjour ! dans la console
-console.log("Bonjourv!");
+console.log("Bonjour !");
 
 // Affiche le chiffre 100 dans la console
 console.log(100);

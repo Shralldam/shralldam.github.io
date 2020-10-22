@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../../css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/video.css">
+		<title>01 - Fond vidéo</title>
+	</head>
+
+	<body>
+
+		<video autoplay muted loop id="big-video">
+			<source src="video/video.mp4" type="video/mp4">
+		</video>
+
+		<div class="content">
+			<h1>Visite sous-marine</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sit adipisci modi temporibus nesciunt iure et repellat illo, iusto neque facere eius dolores sapiente maxime. Enim expedita fugiat accusantium non laborum, esse fugit suscipit voluptas est corrupti vero sunt dolorum odio facilis modi quos beatae omnis cumque libero. Dicta, quam?</p>
+			<button id="btn-pause" onclick="pauseVideo()">Pause</button>
+		</div>
+
+		<script>
+			var video = document.getElementById("big-video");
+			var btn = document.getElementById("btn-pause");
+
+			function pauseVideo() {
+				if (video.paused) {
+					video.play();
+					btn.innerHTML = "Pause";
+				} else {
+					video.pause();
+					btn.innerHTML = "Lecture";
+				}
+			}
+		</script>
+
+	</body>
+
+</html>
